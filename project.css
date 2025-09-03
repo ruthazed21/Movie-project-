@@ -1,0 +1,352 @@
+ body {
+    background-color: rgb(73, 71, 71);
+}
+.nav {
+    display: flex; 
+     background-color: black;
+     padding-top: 17px;
+     height: 35px;
+     width: 1900px;
+     color: white;
+     position: fixed;
+}
+.link {
+    margin-left: 400px;
+    margin-right: 40px;
+}
+.link1, .link2, .link3 {
+ margin-right: 40px;
+} 
+#one {
+ margin-left: 25px;
+}
+#image {
+    margin-left: 350px;
+    margin-top: -7px;
+    border-radius: 25px;
+    width: 37px;
+    height: 35px;
+}
+#text {
+    font-size: 70px;
+    margin-left: 500px;
+    padding-top: 70px;
+}
+#display {
+     width: 1900px;
+     height: 500px;
+     margin-top: -70px;
+}
+#two {
+ margin-top: 20px;
+ font-weight: bold;
+ margin-left: 50px; 
+ font-size: 25px;
+ color: white;
+}
+#cursor1,#cursor2,#cursor3,#cursor4,#cursor5,#cursor6,#cursor7,#cursor8,#cursor9,#cursor10,#cursor11,#cursor12,#cursor13,#cursor14,#cursor15,#cursor16,#cursor17,#cursor18,#cursor19,#cursor20 {
+    display: none;
+    width: 70px;
+    height: 35px;
+    border-radius: 15px;
+    background-color: rgb(7, 124, 7);
+    border: none;
+    color: white;
+    position: absolute;
+    margin-top: 159px;
+    margin-left: 270px;
+
+}
+#three {
+    width: 350px;
+    height: 200px;
+    margin-left: 50px;
+    border-radius: 15px;
+    background-image: url(https://raw.githubusercontent.com/lideya-tesfaye/movie-streaming-website/refs/heads/main/1.jpeg);
+    background-size: cover;
+}
+
+#three:hover #cursor1 {
+    display: block;
+}
+#four {
+    width: 350px;
+    height: 200px;
+    border-radius: 15px;
+    margin-left: 425px;
+    margin-top: -200px;
+    background-image: url(https://raw.githubusercontent.com/lideya-tesfaye/movie-streaming-website/refs/heads/main/2.jpeg);
+    background-size: cover;
+}
+#four:hover #cursor2 {
+    display: block;
+}
+#five {
+    width: 350px;
+    height: 200px;
+    border-radius: 15px;
+    margin-left: 800px; 
+    margin-top: -200px;
+    background-image: url(https://raw.githubusercontent.com/lideya-tesfaye/movie-streaming-website/refs/heads/main/3.jpg);
+    background-size: cover;
+}
+#five:hover #cursor3 {
+    display: block;
+}
+
+#six {
+     width: 350px;
+    height: 200px;
+    border-radius: 15px;
+    margin-left: 1175px;
+    margin-top: -200px;
+    background-image: url(https://raw.githubusercontent.com/lideya-tesfaye/movie-streaming-website/refs/heads/main/10.jpg);
+    background-size: cover;
+}
+#six:hover #cursor4 {
+    display: block;
+}
+#seven {
+    width: 350px;
+    height: 200px;
+    border-radius: 15px;
+    margin-left: 1550px;
+    margin-top: -200px;
+    background-image: url(https://raw.githubusercontent.com/lideya-tesfaye/movie-streaming-website/refs/heads/main/12.jpg);
+    background-size: cover;
+}
+#seven:hover #cursor5 {
+    display: block;
+}
+.arrow {
+    font-size: 150px;
+    color: black;
+    opacity: 0.5;
+    position: absolute;
+    margin-left: 1200px;
+}
+#text2 {
+    margin-top: 70px;
+     font-weight: bold;
+     margin-left: 50px; 
+     font-size:  25px;
+     color: white;
+}
+#eight {
+    width: 350px;
+    height: 200px;
+    margin-left: 50px;
+    border-radius: 15px;
+    background-image: url(https://raw.githubusercontent.com/lideya-tesfaye/movie-streaming-website/refs/heads/main/download.jpg);
+    background-size: cover;
+ 
+}
+#eight:hover #cursor6 {
+    display: block;
+}
+#nine {
+    width: 350px;
+    height: 200px;
+    margin-left: 425px;
+    margin-top: -200px;
+    border-radius: 15px;
+    background-image: url(https://raw.githubusercontent.com/lideya-tesfaye/movie-streaming-website/refs/heads/main/images1.jpg);
+    background-size: cover;
+}
+#nine:hover #cursor7 {
+    display: block;
+}
+#ten {
+    width: 350px;
+    height: 200px;
+    border-radius: 15px;
+    margin-left: 800px;
+    margin-top: -200px;
+    background-image:url(https://raw.githubusercontent.com/lideya-tesfaye/movie-streaming-website/refs/heads/main/download1.jpg);
+    background-size: cover;
+}
+#ten:hover #cursor8 {
+    display: block;
+}
+#eleven {
+    width: 350px;
+    height: 200px;
+    border-radius: 15px;
+    margin-left: 1175px;
+    margin-top: -200px;
+    background-image:url(https://raw.githubusercontent.com/lideya-tesfaye/movie-streaming-website/refs/heads/main/download2.jpg);
+    background-size: cover;
+  
+}
+#eleven:hover #cursor9 {
+    display: block;
+}
+#twelve {
+    width: 350px;
+    height: 200px;
+    margin-left: 1550px;
+    margin-top: -200px;
+    border-radius: 15px;
+    background-image: url(https://raw.githubusercontent.com/lideya-tesfaye/movie-streaming-website/refs/heads/main/download3.jpg);
+    background-size: cover;
+    
+}
+#twelve:hover #cursor10 {
+    display: block;
+}
+#thirteen {
+  background-image: url('https://img.youtube.com/vi/WAvchbP2kXM/maxresdefault.jpg'); /* FREELANCE */
+  background-size: cover;
+  width: 350px;
+  height: 200px;
+  border-radius: 15px;
+  margin-left: 50px;
+}
+#thirteen:hover #cursor11 { display: block; }
+
+#fourteen {
+  background-image: url('https://img.youtube.com/vi/doPV-Shqm7k/maxresdefault.jpg'); /* Swing to the Moon */
+  background-size: cover;
+  width: 350px;
+  height: 200px;
+  border-radius: 15px;
+  margin-left: 425px;
+  margin-top: -200px;
+}
+#fourteen:hover #cursor12 { display: block; }
+
+#sixteen {
+  background-image: url('https://img.youtube.com/vi/SwOYQLfuEcI/maxresdefault.jpg'); /* The Brightest Star */
+  background-size: cover;
+  width: 350px;
+  height: 200px;
+  border-radius: 15px;
+  margin-left: 800px;
+  margin-top: -200px;
+}
+#sixteen:hover #cursor13 { display: block; }
+
+#seventeen {
+  background-image: url('https://img.youtube.com/vi/C4ZP3--XhyU/maxresdefault.jpg'); /* MechWest */
+  background-size: cover;
+  width: 350px;
+  height: 200px;
+  border-radius: 15px;
+  margin-left: 1175px;
+  margin-top: -200px;
+}
+#seventeen:hover #cursor14 { display: block; }
+
+#eighteen {
+  background-image: url('https://img.youtube.com/vi/qVqM2NzuwTk/maxresdefault.jpg'); /* Rise of the Decayed */
+  background-size: cover;
+  width: 350px;
+  height: 200px;
+  border-radius: 15px;
+  margin-left: 1550px;
+  margin-top: -200px;
+}
+#eighteen:hover #cursor15 { display: block; }
+
+#thirteen {
+  background-image: url('https://img.youtube.com/vi/WAvchbP2kXM/maxresdefault.jpg'); /* FREELANCE */
+  background-size: cover;
+  width: 350px;
+  height: 200px;
+  border-radius: 15px;
+  margin-left: 50px;
+}
+#thirteen:hover #cursor11 { display: block; }
+
+#fourteen {
+  background-image: url('https://img.youtube.com/vi/doPV-Shqm7k/maxresdefault.jpg'); /* Swing to the Moon */
+  background-size: cover;
+  width: 350px;
+  height: 200px;
+  border-radius: 15px;
+  margin-left: 425px;
+  margin-top: -200px;
+}
+#fourteen:hover #cursor12 { display: block; }
+
+#sixteen {
+  background-image: url('https://img.youtube.com/vi/SwOYQLfuEcI/maxresdefault.jpg'); /* The Brightest Star */
+  background-size: cover;
+  width: 350px;
+  height: 200px;
+  border-radius: 15px;
+  margin-left: 800px;
+  margin-top: -200px;
+}
+#sixteen:hover #cursor13 { display: block; }
+
+#seventeen {
+  background-image: url('https://img.youtube.com/vi/C4ZP3--XhyU/maxresdefault.jpg'); /* MechWest */
+  background-size: cover;
+  width: 350px;
+  height: 200px;
+  border-radius: 15px;
+  margin-left: 1175px;
+  margin-top: -200px;
+}
+#seventeen:hover #cursor14 { display: block; }
+
+#eighteen {
+  background-image: url('https://img.youtube.com/vi/qVqM2NzuwTk/maxresdefault.jpg'); /* Rise of the Decayed */
+  background-size: cover;
+  width: 350px;
+  height: 200px;
+  border-radius: 15px;
+  margin-left: 1550px;
+  margin-top: -200px;
+}
+#eighteen:hover #cursor15 { display: block; }
+.arrow1 {
+     font-size: 150px;
+    color: black;
+    opacity: 0.5;
+    position: absolute;}
+    .rating {
+  font-size: 24px;
+  color: gray;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.rating .active {
+  color: gold;
+}
+.spinner {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 60px;
+  height: 60px;
+  border: 6px solid #ccc;
+  border-top: 6px solid #09f;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  z-index: 9999;
+}
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+.modal {
+  display: none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.8);
+  z-index: 10000;
+}
+.modal-content {
+  background: white;
+  margin: 10% auto;
+  padding: 20px;
+  width: 60%;
+  border-radius: 10px;
+}
+#closeBtn {
+  float: right;
+  font-size: 28px;
+  cursor: pointer;
+}
